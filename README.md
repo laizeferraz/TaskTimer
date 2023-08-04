@@ -16,7 +16,7 @@ This project was developed using the following technologies:
 
 ## 📚 Libraries
 
-This project was developed using the following technologies:
+This project was developed using the following libraries:
 
 - Routing - [react-router-dom](https://reactrouter.com/)
 - Form - [react-hook-form](https://react-hook-form.com/)
