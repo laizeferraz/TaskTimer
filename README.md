@@ -30,8 +30,8 @@ This project was developed using the following technologies:
 Clone the project and navigate to the project folder.
 
 ```bash
-$ https://github.com/laizeferraz/letmeask2.0.git
-$ cd letmeask2.0
+$ https://github.com/laizeferraz/TaskTimer.git
+$ cd TaskTimer
 ```
 
 To run the development server: 
