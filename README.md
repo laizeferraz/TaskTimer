@@ -1,27 +1,60 @@
-# React + TypeScript + Vite
+<h1 align="center">
+    <img alt="Task Timer cover" src=".github/cover.png">
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+## 🧪 Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed using the following technologies:
 
-## Expanding the ESLint configuration
+- [Vite.js](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [React Hooks: Context | Reducer | State | Effect](https://react.dev/reference/react)
+- [Styled Components](https://styled-components.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📚 Libraries
 
-- Configure the top-level `parserOptions` property like this:
+This project was developed using the following technologies:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Routing - [react-router-dom](https://reactrouter.com/)
+- Form - [react-hook-form](https://react-hook-form.com/)
+- Typescript form validation - [zod](https://zod.dev/)
+- Date formatting - [data-fns](https://date-fns.org/)
+- Icons - [phorphor-react](https://phosphoricons.com/)
+- Immutable state - [immer](https://github.com/immerjs/immer)
+
+## 🚀 Getting Started
+
+Clone the project and navigate to the project folder.
+
+```bash
+$ https://github.com/laizeferraz/letmeask2.0.git
+$ cd letmeask2.0
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To run the development server: 
+```bash
+# Install the dependencies
+$ npm install
+
+# Run the project
+$ npm run dev
+```
+The app runs on the browser in the URL http://localhost:5173.
+
+## 💻 Project
+
+Task Timer is perfect for students and/or profissionais that need to organize their time to focus on their tasks. Type the name of the task, define how long you will focus on it and see the history of your focus time to have a good understand of your productivity and time management. 
+
+This is a project developed as part of the Ignite ReactJS course offered by [Rocketseat](https://www.rocketseat.com.br/) in July 2023. 
+
+## 🔖 Layout
+
+You can see the layout on Figma through the link bellow:
+
+- [Layout Web](https://www.figma.com/file/6iTXEFHmLSb2ZpLJ9PXp3O/Task-Timer?type=design&t=TfI13eX1UvescI8O-6) 
+
+Note: You need to have an account on [Figma](http://figma.com/) to access the link above.
+
